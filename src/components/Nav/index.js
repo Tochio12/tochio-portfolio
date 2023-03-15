@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../utils/helper";
 
 function Nav(props) {
     const {
