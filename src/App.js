@@ -1,4 +1,4 @@
-import Reacts, { useState } from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -12,25 +12,28 @@ function App() {
   const [currentTab, setCurrentTab] = useState('about');
 
   const renderTab = () => {
-    switch (currentTab) {
-      case 'about':
-        return <About />;
-      case 'portfolio':
-        return <Portfolio />;
-      case 'contact':
-        return <Contact />;
-      case 'resume':
-        return <Resume />;
-      default:
-        return <About />;
+    if (currentTab === "About") {
+      return <About />;
     }
+    if (currentTab === "Contact") {
+      return <Contact />;
+    }
+    if (currentTab === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentTab === "Resume") {
+      return <Resume />;
+    }
+    return <About />;
   };
 
   return (
     <div>
-      <title>Tochio Herrera Portfolio | {currentTab} </title>
-      <Header currentTab={currentTab} 
-      setCurrentTab={setCurrentTab}
+      <title>Tochio's Portfolio | {currentTab} </title>
+
+      <Header 
+        currentTab={currentTab} 
+        setCurrentTab={setCurrentTab}
       ></Header>
       <main>
         {renderTab()}
