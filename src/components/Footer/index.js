@@ -7,7 +7,6 @@ function Footer() {
     return (
         <footer>
             <h2>Made by Tochio Herrera</h2>
-            <p>
                 <ul>
                     <a href="https://github.com/Tochio12">
                         <li className="logo">
@@ -25,7 +24,6 @@ function Footer() {
                         </li>
                     </a>
                 </ul>
-            </p>
         </footer>
     )
 }

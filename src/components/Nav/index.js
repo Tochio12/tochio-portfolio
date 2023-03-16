@@ -3,14 +3,14 @@ import { capitalizeFirstLetter } from "../../utils/helper";
 
 function Nav(props) {
     const {
-        currentPage,
-        setCurrentPage,
+        currentTab,
+        setCurrentTab,
 
     } = props;
 
     useEffect(() => {
-        document.title = capitalizeFirstLetter(currentPage.name);
-    }, [currentPage]);
+        document.title = capitalizeFirstLetter(currentTab);
+    }, [currentTab]);
 
     return (
         <nav>
@@ -18,8 +18,8 @@ function Nav(props) {
                 <li className="nav-item">
                     <a
                         href="#about"
-                        on Click={() => setCurrentPage('About')}
-                        className={currentPage.name === 'About' ? 'nav-link active' : 'nav-link'}
+                        onClick={() => setCurrentTab('About')}
+                        className={currentTab === 'About' ? 'nav-link active' : 'nav-link'}
                     >
                         About
                     </a>
@@ -27,8 +27,8 @@ function Nav(props) {
                 <li className="nav-item">
                     <a
                         href="#portfolio"
-                        on Click={() => setCurrentPage('Portfolio')}
-                        className={currentPage.name === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        onClick={() => setCurrentTab('Portfolio')}
+                        className={currentTab === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                     >
                         Portfolio
                     </a>
@@ -36,8 +36,8 @@ function Nav(props) {
                 <li className="nav-item">
                     <a
                         href="#contact"
-                        on Click={() => setCurrentPage('Contact')}
-                        className={currentPage.name === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        onClick={() => setCurrentTab('Contact')}
+                        className={currentTab === 'Contact' ? 'nav-link active' : 'nav-link'}
                     >
                         Contact
                     </a>
@@ -45,8 +45,8 @@ function Nav(props) {
                 <li className="nav-item">
                     <a
                         href="#resume"
-                        on Click={() => setCurrentPage('Resume')}
-                        className={currentPage.name === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        onClick={() => setCurrentTab('Resume')}
+                        className={currentTab === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
                         Resume
                     </a>

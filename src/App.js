@@ -10,10 +10,13 @@ import "./App.css";
 
 function App() {
   const [currentTab, setCurrentTab] = useState('about');
+  console.log(currentTab)
+
+
 
   const renderTab = () => {
     if (currentTab === "About") {
-      return <About />;
+      return <About/>;
     }
     if (currentTab === "Contact") {
       return <Contact />;
