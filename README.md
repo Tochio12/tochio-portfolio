@@ -23,7 +23,7 @@ No installation required
 Go to the site, and click on the different sections to view my information.
 
 ## Links
-[Site]()
+[Site](https://tochio12.github.io/tochio-portfolio/)
 
 ## Screenshots
 
