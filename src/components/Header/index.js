@@ -8,7 +8,7 @@ function Header(props) {
     return (
         <div>
             <section>
-                <header className="flex-row px=1">
+                <header>
                     <div>
                         <h1>Tochio Herrera's Portfolio</h1>
                     </div>

@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
     return (
         <div>
-            <section id="welcome-section">
+            <section id="welcome-section" className="resume-description">
                 <div className="flex-row">
                     <p>
                         Checkout out my list of Developer skills and proficiencies!

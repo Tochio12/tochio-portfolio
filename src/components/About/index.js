@@ -9,9 +9,9 @@ function About() {
                 </h1>
             </div>
             <div className="flex-row">
-                <div className="intro-info">
+                {/* <div className="intro-info">
                     <div className="intro-img">
-                        <img src="https://via.placeholder.com/150" alt="profile" />
+                        <img src="https://via.placeholder.com/150" alt="profile" /> */}
                     </div>
                     <p>
                         Hello! My name is Tochio Herrera. Im currently 21 living in New Jersey.
@@ -21,8 +21,8 @@ function About() {
                         I also love playing video games and binge watching a good show.
 
                     </p>
-                </div>
-            </div>
+                {/* </div>
+            </div> */}
         </section>
     );
 }
