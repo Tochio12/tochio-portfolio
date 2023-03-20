@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tochio-portfolio/static/css/main.4aaee9fe.css",
+    "main.js": "/tochio-portfolio/static/js/main.c69bf330.js",
+    "static/media/weather.jpg": "/tochio-portfolio/static/media/weather.9aac42e17ff554eb5718.jpg",
+    "static/media/background.jpg": "/tochio-portfolio/static/media/background.a01038959df53a9d7b58.jpg",
+    "static/media/notetaker.jpg": "/tochio-portfolio/static/media/notetaker.2861d55cd2fdba4b496d.jpg",
+    "static/media/quiz.jpg": "/tochio-portfolio/static/media/quiz.3af7afddc82fcc123e99.jpg",
+    "index.html": "/tochio-portfolio/index.html",
+    "main.4aaee9fe.css.map": "/tochio-portfolio/static/css/main.4aaee9fe.css.map",
+    "main.c69bf330.js.map": "/tochio-portfolio/static/js/main.c69bf330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aaee9fe.css",
+    "static/js/main.c69bf330.js"
+  ]
+}
