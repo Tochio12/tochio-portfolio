@@ -2,6 +2,7 @@ import React from 'react';
 import weatherImg from '../../assets/weather.jpg';
 import noteTakerImg from '../../assets/notetaker.jpg';
 import quizImg from '../../assets/quiz.jpg'; 
+import pokeImg from '../../assets/poke.jpg';
 
 function Portfolio() {
   return (
@@ -72,6 +73,28 @@ function Portfolio() {
             <h4>Quiz Game</h4>
             <p>
               A quiz game that allows the user to answer a series of questions within a time limit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='job'>
+        <div className='job-info'>
+          <div className='job-img'>
+            <a href='https://pokedecks.herokuapp.com/'>
+              {''}
+              <img
+                src={pokeImg}
+                className='my-2'
+                style={{ width: '100%' }}
+                alt='poke-deck'
+              />
+            </a>
+          </div>
+          <div className='job-text'>
+            <h4>PokeDeck</h4>
+            <p>
+            PokeDeck is a website where the user can search for their favorite pokemon and see what kinds of cards are available in distribution
             </p>
           </div>
         </div>
